@@ -1,123 +1,93 @@
-*{ margin:0px;
-  padding: 0px;}
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
 /*title text style*/
 .title {
-font-size: 21px;
-color: rgb(241, 184, 184);
-font-weight: bold;
-font-family: 'JetBrains Mono', monospace;
+  font-size: 21px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-family: 'JetBrains Mono', monospace;
 }
 
 /*body text style*/
 .body-font {
-font-size: 15px;
-color: white;
-font-weight: medium;
-font-family: 'JetBrains Mono', monospace;
+  font-size: 20px;
+  color: white;
+  font-weight: medium;
+  font-family: 'JetBrains Mono', monospace;
 }
 
 a {
-color: #4886f8;
+  color: #18083d;
 }
 body {
-display: flex;
-flex: 1;
-flex-direction: column;
+  background-color: #565d75;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
 }
 
 header {
-height: ;
-margin-bottom: ;
-margin-top: ;
-flex: ;
-width: ;
-display:;
-flex-direction:;
+  height: 40vh;
+  margin-bottom: 4px;
+  margin-top: 10px;
+  flex: 3;
+  align-self: center;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
 }
 
 main {
-display: flex;
-flex: ;
-width: ;
-flex-direction:;
-align-self: ;
+  display: flex;
+  flex: auto;
+  width: 50vw;
+  flex-direction: column;
+  align-self: center;
 }
 
-#summary {
-display: flex;
-justify-content: 
-align-items: 
-font-size: 
+#h1 {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  font-size: 15px;
 }
 
-About me {
-display: flex;
-flex-direction: column;
-text-align: center;
-align-self: center;
-font-size: 15px;
-color: white;
-}
-
-#Experience > p > span {
-text-decoration: underline;
+#h2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  align-self: center;
+  font-size: 15px;
+  color: white;
 }
 
 #bio-spans-container {
-display: flex;
-flex: 1;
-flex-direction: column;
-color: black;
-border-radius: 5px;
-align-items: flex-start;
-height: fit-content;
-/*top, right, bottom, left (clockwise)*/
-padding: 20px 0px 20px 15px;
-margin-top: 15px;
-margin-left: 10px;
-font-size: 14.16px;
-border-radius: 23.59px;
-box-shadow: 0 4px 6px 2px rgba(0, 0, 0, 0.1); /* Last value (2px) is the spread */
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: #fffffece;
+  color: blue;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: flex-start;
+  height: fit-content;
+  /*top, right, bottom, left (clockwise)*/
+  padding: 20px 0px 20px 15px;
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 14.16px;
+  border-radius: 23.59px;
+  box-shadow: 0 4px 6px 2px rgba(0, 0, 0, 0.1); /* Last value (2px) is the spread */
 }
 
-#summary {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-color: white;
+#profile-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
 }
-
-.bspacer {
-margin-bottom: 23px;
-}
-
-#Experience > div {
-margin-bottom: 3px;
-}
-
-#experience-section > div:() {
-margin-bottom: 4px;
-}
-
-.education-content-span {
-font-size: 15px;
-color: ;
-}
-
-hr {
-background-color:;
-height: 1px;
-border-width: 0px;
-border-radius: 25px;
-margin-top: 1px;
-margin-bottom: 1px;
-}
-
-#hobbies-and-skills-container {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-color: ;
-
