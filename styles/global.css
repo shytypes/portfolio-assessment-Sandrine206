@@ -13,64 +13,64 @@
 
 /*body text style*/
 .body-font {
-  font-size: 20px;
-  color: white;
+  font-size: 14px;
+  color: black;
   font-weight: medium;
   font-family: 'JetBrains Mono', monospace;
 }
 
 a {
-  color: #18083d;
+  color: black;
 }
 body {
-  background-color: #565d75;
+  background-color: #0ea0dac0;
   display: flex;
   flex: 1;
   flex-direction: column;
 }
 
 header {
-  height: 40vh;
+  height: 30vh;
   margin-bottom: 4px;
   margin-top: 10px;
   flex: 3;
   align-self: center;
-  width: 80vw;
+  width: 50vw;
   display: flex;
   flex-direction: column;
 }
 
 main {
   display: flex;
-  flex: auto;
-  width: 50vw;
+  flex: center;
+  width: 90vw;
   flex-direction: column;
   align-self: center;
 }
 
-#h1 {
+#header-view-1 {
   display: flex;
   justify-content: left;
   align-items: left;
   font-size: 15px;
 }
 
-#h2 {
+#header-view-2 {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: justify;
   width: 100%;
-  align-self: center;
+  align-self: justify;
   font-size: 15px;
-  color: white;
+  color: rgb(12, 11, 11);
 }
 
 #bio-spans-container {
   display: flex;
   flex: 1;
   flex-direction: column;
-  background-color: #fffffece;
-  color: blue;
+  background-color: #dd1717;
+  color: black;
   border-radius: 5px;
   justify-content: center;
   align-items: flex-start;
@@ -81,7 +81,7 @@ main {
   margin-left: 10px;
   font-size: 14.16px;
   border-radius: 23.59px;
-  box-shadow: 0 4px 6px 2px rgba(0, 0, 0, 0.1); /* Last value (2px) is the spread */
+  box-shadow: 0 4px 6px 2px rgba(136, 18, 18, 0.1); /* Last value (2px) is the spread */
 }
 
 #profile-image-container {
@@ -90,4 +90,53 @@ main {
   justify-content: center;
   align-items: flex-start;
   color: white;
+}
+
+.bspacer {
+  margin-bottom: 10px;
+}
+
+#profile-image-container > div {
+  margin-bottom: 3px;
+}
+
+#experience-section > div:nth-child(3) {
+  margin-bottom: 4px;
+}
+
+.education-content-span {
+  font-size: 12px;
+  color: black;
+}
+
+hr {
+  background-color: black;
+  height: 1px;
+  border-width: 0px;
+  border-radius: 30px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+#hobbies-and-skills-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.hobbies-and-skill-child {
+  width: 5%;
+}
+
+ul {
+  margin-left: 2px;
+  padding: 2px;
+  color: black;
+}
+
+li {
+  font-size: 15px;
+  margin: 2px 0px 0px 10px;
 }
