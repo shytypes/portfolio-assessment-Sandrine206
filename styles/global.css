@@ -142,7 +142,7 @@ li {
   margin: 2px 0px 0px 10px;
 }
 
-#form-section {
+# sign uo form section {
   body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -204,13 +204,13 @@ li {
     transition: transform 0.2s ease;
   }
 
-  #sign up form-section {
+  #sign up form section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 20px;
   }
-  #sign up form-section {
+  #sign up form section {
     display: flex;
     flex-direction: column;
   }
@@ -221,23 +221,23 @@ li {
     gap: 15px;
   }
 
-  #sign up form-section legend {
+  #sign up form section legend {
     align-self: flex-start;
     font-weight: bold;
   }
 
-  #sign up form-section label {
+  #sign up form section label {
     width: 100%;
     font-weight: bold;
     margin-bottom: 5px;
   }
-  #sign up form-section input {
+  #sign up form section input {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     width: 100%;
   }
-  #sign up form-section button {
+  #sign up form section button {
     align-self: flex-start;
     padding: 10px 20px;
     border: none;

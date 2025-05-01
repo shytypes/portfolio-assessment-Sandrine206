@@ -36,5 +36,4 @@ function handleSubmit(e) {
   <li> email: ${formData.email}</li>
   <li> age : ${formData.age}</li> `
 }
-
 form.addEventListener('submit', handleSubmit)
