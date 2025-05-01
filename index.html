@@ -73,12 +73,10 @@
       <section id="education-content-span">
         <p class="education-content-span">Education</p>
         <hr />
-        <span class="education-content-span"
-          ><p>
+        
             Bachelor degree in Finance<br /><a href="#"
               >University of Lome-TOGO</a
             >
-            - Togo
           </p></span
         >
         <ul>
@@ -90,7 +88,7 @@
         <p class="title">Experience</p>
         <hr />
         <div>
-          <span class="education-content-span"
+          <span class="experience"
             ><p>
               <a href="#">I have joy finding solution to critical issues </a>
             </p></span
@@ -102,13 +100,9 @@
           </ul>
         </div>
         <div>
-          <span class="education-content-span"
+          <span class="experience"
             ><p>
-              <a href="#"
-                >I am not so happy about my current state because i have never
-                use the knowledge i acquired in Finance to do any corporate
-                work.
-              </a>
+              <a href="#"> </a>
               I am very smart and would like to use my knowledge to better our
               world. Tech4Dev is my breakthrough to achieve my goals.
             </p></span
@@ -142,6 +136,70 @@
           </ul>
         </div>
       </section>
+
+      <section>
+        <h1>sign up form</h1>
+        <form>
+          <fieldset>
+            <legend>Enter your details</legend>
+
+            <label for="firstName"
+              >firstName:
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                autocomplete="cc-given-name"
+                required
+              />
+            </label>
+
+            <label for="lastName"
+              >Last Name:
+              <input
+                type="text"
+                id="lastName"
+                name="lastName"
+                autocomplete="family-name"
+                required
+              />
+            </label>
+
+            <label for="email"
+              >Email:
+              <input
+                type="email"
+                id="email"
+                name="email"
+                autocomplete="email"
+                required
+              />
+            </label>
+
+            <label for="age"
+              >age:
+              <input
+                type="number"
+                id="age"
+                name="age"
+                min="0"
+                autocomplete="off"
+                required
+              />
+            </label>
+          </fieldset>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      <section>
+        <ul id="result-view"></ul>
+      </section>
+    
+    <script src="./script.js"></script>
+  
+
     </main>
   </body>
 </html>
+
+  
