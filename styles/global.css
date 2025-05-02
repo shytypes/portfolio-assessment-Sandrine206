@@ -142,12 +142,14 @@ li {
   margin: 2px 0px 0px 10px;
 }
 
-# sign uo form section {
+#sign up form section {
   body {
     font-family: Arial, sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    padding: 20px;
     min-height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
@@ -169,12 +171,14 @@ li {
   fieldset {
     border: none;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 15px;
   }
 
   legend {
-    align-self: center;
+    align-self: flex-start;
+    font-weight: bold;
   }
 
   label {
@@ -185,13 +189,13 @@ li {
 
   input {
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 4px;
     width: 100%;
   }
 
   button {
-    align-self: center;
+    align-self: flex-start;
     padding: 10px 20px;
     border: none;
     border-radius: 15px;
@@ -202,52 +206,5 @@ li {
     margin-top: 20px;
     width: 40%;
     transition: transform 0.2s ease;
-  }
-
-  #sign up form section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
-  }
-  #sign up form section {
-    display: flex;
-    flex-direction: column;
-  }
-  sign up form-section fieldset {
-    border: none;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  #sign up form section legend {
-    align-self: flex-start;
-    font-weight: bold;
-  }
-
-  #sign up form section label {
-    width: 100%;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  #sign up form section input {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    width: 100%;
-  }
-  #sign up form section button {
-    align-self: flex-start;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 15px;
-    background-color: #5b4caf;
-    color: white;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-top: 20px;
-    width: 40%;
-    transition: transform 0.2sease;
   }
 }
